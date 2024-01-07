@@ -8,7 +8,7 @@ var Eaddress = document.getElementById('address');
 var btn = document.getElementById('btn');
 
 
-
+// Added loader state in project
 var spinnerWrapper = document.createElement('div');
 spinnerWrapper.classList.add('spinner-wrapper');
 
