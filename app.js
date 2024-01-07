@@ -9,10 +9,11 @@ var btn = document.getElementById('btn');
 
 
 // Added loader state in project
-function captain(){
-    console.log("Mukesh Kumatr Thakur");
+function getName(){
+    let name = "Mukesh Kumatr Thakur";
+    return name;
 }
-captain();
+console.log(getName());
 var spinnerWrapper = document.createElement('div');
 spinnerWrapper.classList.add('spinner-wrapper');
 
